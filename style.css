@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@600&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Style+Script&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+.main-container {
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background: black
+}
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 30px;
+    color: yellow;
+    height: auto;
+    letter-spacing: 5px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+ul{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li {
+    border-bottom: 2px solid white;
+    width: 150px;
+    display: flex;
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.stop-btn {
+    margin-top: 15px;
+    height:50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+svg {
+
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    margin: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.start-active,
+.stop-active {
+    pointer-events: none;
+    opacity: 0.5;
+
+}
